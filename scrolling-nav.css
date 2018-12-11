@@ -1,0 +1,21 @@
+header {
+  padding: 154px 0 100px;
+  background-color: silver;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.btn-primary {
+    background-color: crimson !important;
+    border-color: dimgray;
+}
+
+section {
+  padding: 150px 0;
+}
+
+
