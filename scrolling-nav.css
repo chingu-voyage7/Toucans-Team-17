@@ -11,7 +11,11 @@ header {
 
 .btn-primary {
     background-color: crimson !important;
-    border-color: dimgray;
+    border: none  !important;
+}
+
+.btn-primary:hover {
+    background-color: #f02951 !important;
 }
 
 section {
