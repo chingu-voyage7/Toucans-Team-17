@@ -1,3 +1,7 @@
+nav {
+    font-family: 'Bungee', cursive;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
   background-size: cover;
@@ -16,8 +20,26 @@ header {
   }
 }
 
+form {
+    font-family: 'Rubik', sans-serif;
+}
+
 #header-div {
     margin-top: 90px;
+}
+
+h1 {
+    font-family: 'Bungee', cursive;
+}
+
+h2 {
+    font-family: 'Bungee', cursive;
+
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+
 }
 
 .btn-primary {
