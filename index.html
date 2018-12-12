@@ -10,7 +10,7 @@
 
     <title>Resolutions Buddy</title>
       
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Unlock" rel="stylesheet">
   
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
               <a class="nav-link js-scroll-trigger" href="#about-us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#login">Login</a>
+              <a class="nav-link js-scroll-trigger" href="#get-started">Get Started</a>
             </li>
           </ul>
         </div>
@@ -67,18 +67,20 @@
     </header>
 
     <section id="how-it-works">
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>How It Works</h2>
+            <div id="lead">
             <p class="lead">Don't let your new year resolutions remain incompleted anymore! All you need to do is just submit your email id and new year resolutions, and you'll start receiving email reminders about your resolution. It's that simple!</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="about-us" class="bg-light">
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>About Us</h2>
@@ -88,12 +90,22 @@
       </div>
     </section>
 
-    <section id="login">
-      <div class="container">
+    <section id="get-started">
+      <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Login/Sign Up</h2>
-            <p class="lead">   sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <h2>Get Started</h2>
+           <form>
+              <div class="row">
+                <div class="col">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Your resolution">
+                </div>
+              </div>
+            <button type="submit" class="btn text-light btn-secondary">Submit</button>
+            </form> 
           </div>
         </div>
       </div>
