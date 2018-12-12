@@ -1,6 +1,13 @@
 header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
   padding: 154px 0 100px;
-  background-color: silver;
 }
 
 @media (min-width: 992px) {
@@ -9,13 +16,17 @@ header {
   }
 }
 
+#header-div {
+    margin-top: 90px;
+}
+
 .btn-primary {
     background-color: crimson !important;
-    border: none  !important;
+    border-color: #bc1b3b !important;
 }
 
 .btn-primary:hover {
-    background-color: #f02951 !important;
+    background-color: #f05272 !important;
 }
 
 section {
