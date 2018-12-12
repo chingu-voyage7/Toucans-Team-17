@@ -1,5 +1,5 @@
 nav {
-    font-family: 'Bungee', cursive;
+    font-family: 'Unlock', cursive;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 }
 
 form {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 #header-div {
@@ -29,17 +29,16 @@ form {
 }
 
 h1 {
-    font-family: 'Bungee', cursive;
+    font-family: 'Unlock', cursive;
+    font-weight: bold;
 }
 
 h2 {
-    font-family: 'Bungee', cursive;
-
+    font-family: 'Unlock', cursive;
 }
 
 p {
-    font-family: 'Rubik', sans-serif;
-
+    font-family: 'Nunito', sans-serif;
 }
 
 .btn-primary {
@@ -51,8 +50,26 @@ p {
     background-color: #f05272 !important;
 }
 
-section {
-  padding: 150px 0;
+.btn-secondary {
+    border-color: #bc1b3b !important;
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 5px 40px;
 }
 
+.btn-secondary:hover {
+    background-color: #f05272 !important;
+}
 
+section {
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+#how-it-works {
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+
+}
