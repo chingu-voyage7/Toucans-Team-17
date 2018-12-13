@@ -2,6 +2,18 @@ nav {
     font-family: 'Unlock', cursive;
 }
 
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: silver !important;
+}
+
+.nav-link:focus {
+    color: #f05272 !important;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
   background-size: cover;
