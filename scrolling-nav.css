@@ -78,25 +78,6 @@ section {
   padding: 100px 0;
 }
 
-.padded-multiline { 
-  background: url(https://i.postimg.cc/cJLWx5NK/aerial-background-bow-1537164.jpg);
-  line-height: 1.4; 
-  padding: 50px 220px 100px 220px;
-  max-width: 700px;
-  max-height: 400px;
-  margin: 20px auto;
-}
-.padded-multiline span { 
-  font-weight: bold;
-  color: black; 
-  display: inline;
-  padding: 0.5rem;
-  
-  /* Needs prefixing */
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
 footer {
     font-family: 'Nunito', sans-serif;
 
