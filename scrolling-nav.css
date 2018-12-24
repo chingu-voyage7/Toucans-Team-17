@@ -82,3 +82,255 @@ footer {
     font-family: 'Nunito', sans-serif;
 
 }
+nav {
+    font-family: 'Unlock', cursive;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: silver !important;
+}
+
+.nav-link:focus {
+    color: #f05272 !important;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header-div {
+    margin-top: 90px;
+}
+
+h1 {
+    font-family: 'Unlock', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Unlock', cursive;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+    background-color: crimson !important;
+    border-color: #bc1b3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #f05272 !important;
+}
+
+.btn-secondary {
+    border-color: #bc1b3b !important;
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+.btn-secondary:hover {
+    background-color: #f05272 !important;
+}
+
+section {
+  padding: 100px 0;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+
+}
+nav {
+    font-family: 'Unlock', cursive;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: silver !important;
+}
+
+.nav-link:focus {
+    color: #f05272 !important;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header-div {
+    margin-top: 90px;
+}
+
+h1 {
+    font-family: 'Unlock', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Unlock', cursive;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+    background-color: crimson !important;
+    border-color: #bc1b3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #f05272 !important;
+}
+
+.btn-secondary {
+    border-color: #bc1b3b !important;
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+.btn-secondary:hover {
+    background-color: #f05272 !important;
+}
+
+section {
+  padding: 100px 0;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+
+}
+nav {
+    font-family: 'Unlock', cursive;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: silver !important;
+}
+
+.nav-link:focus {
+    color: #f05272 !important;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header-div {
+    margin-top: 90px;
+}
+
+h1 {
+    font-family: 'Unlock', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Unlock', cursive;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+    background-color: crimson !important;
+    border-color: #bc1b3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #f05272 !important;
+}
+
+.btn-secondary {
+    border-color: #bc1b3b !important;
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+.btn-secondary:hover {
+    background-color: #f05272 !important;
+}
+
+section {
+  padding: 100px 0;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+
+}
