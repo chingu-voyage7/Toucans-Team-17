@@ -14,10 +14,6 @@ function isEmail(email) {
                   fieldsMissing += "<br>Email";
               }
 
-              if ($("#password").val() == "") {
-
-                   fieldsMissing += "<br>Password";
-               }
 
                if (fieldsMissing != "") {
 
@@ -35,8 +31,18 @@ function isEmail(email) {
                   $("#errorMessage").html(errorMessage);
 
               } else {
-                  var userName = $("#email").val();
-                  $("#signUp").html("Hi! " + userName);
+                  $('#myModal').modal('show');
               }
+      
+             $("#save").click(function() {
+                 if ($("#password").val() != "") {
+                  $("#myModal").modal('hide');
+                  var userName = $("#email").val();
+                  $("#signUp").html("Hi, " + userName + "!");
+                  $("#password").val("");
+                  $("#email").val("");
+              }
+                 
+             })
 
             });
