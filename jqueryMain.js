@@ -31,18 +31,19 @@ function isEmail(email) {
                   $("#errorMessage").html(errorMessage);
 
               } else {
-                  $('#myModal').modal('show');
+                  $('#myModal').modal('show')
               }
-      
-             $("#save").click(function() {
-                 if ($("#password").val() != "") {
-                  $("#myModal").modal('hide');
-                  var userName = $("#email").val();
-                  $("#signUp").html("Hi, " + userName + "!");
-                  $("#password").val("");
-                  $("#email").val("");
-              }
-                 
-             })
 
-            });
+              $("#save").click(function() {
+                if ($("#password").val() != "") {
+                 $("#myModal").modal('hide');
+                 var userName = $("#email").val();
+                 $("#signUp").html("Hi, " + userName + "!");
+                 $("#password").val("");
+                 $("#email").val("");
+                 e.preventDefault();
+             }
+                
+            })
+
+           });
