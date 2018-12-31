@@ -47,3 +47,18 @@ function isEmail(email) {
             })
 
            });
+
+           function deleteLi(Li){
+            $(Li).parent().parent().remove()
+        }
+        function completeLi(Li){
+            $(Li).parent().parent().addClass("completed")
+        }
+        $('#submit').click(function(event){
+            $('#internalList').append($('<li class="upasana">').text($("#entryinput").val()))
+            $(`<div class="todo-btns">
+               <button class="complete-btn" onclick="completeLi($(this))">Complete</button>
+               <button class="delete-btn" onclick="deleteLi($(this))">Delete</button>
+            </div>`).appendTo(".upasana:last-child")
+            $('#entryinput').val('')
+        });
