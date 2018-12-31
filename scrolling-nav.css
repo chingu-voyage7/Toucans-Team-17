@@ -84,6 +84,66 @@ section {
   padding: 100px 0;
 }
 
+/* Todo list */
+main{
+    align-content: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1%;
+    width: 78%;
+    min-height: 80%;
+    background-color: aliceblue;
+}
+
+#todo-input{
+    margin: auto;
+    width: 40%;
+    padding: 0 1%;
+}
+#todo-list{
+    padding: 0 1%;
+    margin: auto;
+    width: 70%;
+}
+#entryinput{
+    border-radius: 5px;
+    width: 100%;
+}
+#submit{
+    margin: 2% 25%;
+    width: 50%;
+}
+#internalList{
+    padding-left: 0;
+    max-height: 65%;
+    overflow-y: scroll;
+}
+.upasana{
+    list-style: none;
+    background-color: #ccc;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 5% auto;
+    width: 80%;
+    margin-left:0;
+}
+.todo-btns{
+    float:right;
+}
+.completed{
+    background-color: green;
+    color:white;
+}
+@media screen and (max-width: 520px){
+    .todo-btns{
+        float:none;
+    }
+    .upasana{
+        text-align: center;
+    }
+
+}
+
 footer {
     font-family: 'Nunito', sans-serif;
 
