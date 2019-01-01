@@ -92,7 +92,7 @@ main{
     padding: 1%;
     width: 78%;
     min-height: 80%;
-    background-color: aliceblue;
+    background-color: none;
 }
 
 #todo-input{
@@ -120,7 +120,7 @@ main{
 }
 .upasana{
     list-style: none;
-    background-color: #ccc;
+    background-color: rgba(30,50,60,0.4);
     border-radius: 25px;
     padding: 5%;
     margin: 5% auto;
