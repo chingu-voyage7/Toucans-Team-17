@@ -84,15 +84,17 @@ section {
   padding: 100px 0;
 }
 
+h4 {
+  margin-top: -5px;
+}
+
 /* Todo list */
 main{
     align-content: center;
     margin: auto;
     border-radius: 25px;
     padding: 1%;
-    width: 78%;
-    min-height: 80%;
-    background-color: aliceblue;
+
 }
 
 #todo-input{
