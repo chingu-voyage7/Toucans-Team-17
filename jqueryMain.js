@@ -14,6 +14,11 @@ function isEmail(email) {
                   fieldsMissing += "<br>Email";
               }
 
+              if ($("#password").val() == "") {
+
+                  fieldsMissing += "<br>Password";
+              }
+
 
                if (fieldsMissing != "") {
 
@@ -31,20 +36,13 @@ function isEmail(email) {
                   $("#errorMessage").html(errorMessage);
 
               } else {
-                  $('#myModal').modal('show')
+                var userName = $("#email").val();
+                $("#login").html("Hi, " + userName + "!");
+                $("#password").val("");
+                $("#email").val("");
+                $("#errorMessage").hide();
+                e.preventDefault();
               }
-
-              $("#save").click(function() {
-                if ($("#password").val() != "") {
-                 $("#myModal").modal('hide');
-                 var userName = $("#email").val();
-                 $("#signUp").html("Hi, " + userName + "!");
-                 $("#password").val("");
-                 $("#email").val("");
-                 e.preventDefault();
-             }
-                
-            })
 
            });
 
@@ -62,3 +60,9 @@ function isEmail(email) {
             </div>`).appendTo(".upasana:last-child")
             $('#entryinput').val('')
         });
+
+
+        $("#add").click(function() {
+          
+
+// $("#myModal").modal('hide');
