@@ -98,14 +98,12 @@ main{
 }
 
 #todo-input{
-    margin: auto;
-    width: 40%;
+    margin-right: 5px;
     padding: 0 1%;
 }
 #todo-list{
     padding: 0 1%;
     margin: auto;
-    width: 70%;
 }
 #entryinput{
     border-radius: 5px;
@@ -117,7 +115,6 @@ main{
 }
 #internalList{
     padding-left: 0;
-    max-height: 65%;
     overflow-y: scroll;
 }
 .upasana{
@@ -125,12 +122,14 @@ main{
     background-color: #ccc;
     border-radius: 25px;
     padding: 5%;
-    margin: 5% auto;
-    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left:0;
+    margin-right: 5px;
 }
 .todo-btns{
     float:right;
+    margin-top: -3px;
 }
 .completed{
     background-color: green;
