@@ -34,9 +34,9 @@ header {
 }
 
 #errorMessage {
-                color: red;
-                font-size: 90% !important;
-            }
+  color: red;
+  font-size: 90% !important;
+}
 
 form {
     font-family: 'Nunito', sans-serif;
@@ -131,10 +131,12 @@ main{
     float:right;
     margin-top: -3px;
 }
-.completed{
-    background-color: green;
-    color:white;
+
+.delete-btn {
+    border-radius: 25px;
+    border: none;
 }
+
 @media screen and (max-width: 520px){
     .todo-btns{
         float:none;
