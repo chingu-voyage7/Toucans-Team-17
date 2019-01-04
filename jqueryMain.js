@@ -63,12 +63,17 @@ function isEmail(email) {
           }
         });
 
+        $("#add").click(function() {
+          $("#largeModal").modal('show');
+        });
+
         $("#submit").click(function(){
+          $("#largeModal").modal('hide');
           $("#myModal").modal('show');
         });
 
-        $("#add").click(function() {
-          $("#largeModal").modal('show');
+        $("#myModal a").click(function () {
+          $("#myModal").modal('hide');
         });
 
 
