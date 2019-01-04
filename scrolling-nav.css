@@ -93,12 +93,12 @@ main{
     align-content: center;
     margin: auto;
     border-radius: 25px;
-    padding: 1%;
-
+    padding: 50px;
 }
 
 #todo-input{
     margin-right: 5px;
+    margin-left: 5px;
     padding: 0 1%;
 }
 #todo-list{
@@ -145,6 +145,14 @@ main{
         text-align: center;
     }
 
+}
+/* Modals */
+#myModal a {
+  text-decoration: none;
+}
+
+.modal-dialog {
+  max-width: 800px;
 }
 
 footer {
