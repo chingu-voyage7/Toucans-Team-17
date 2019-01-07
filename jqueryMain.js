@@ -41,6 +41,7 @@ function isEmail(email) {
                 $("#password").val("");
                 $("#email").val("");
                 $("#errorMessage").hide();
+                alert("Congratulations, you did it!");
               }
 
            });
