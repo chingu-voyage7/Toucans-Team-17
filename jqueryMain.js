@@ -19,7 +19,6 @@ function isEmail(email) {
                   fieldsMissing += "<br>Password";
               }
 
-
                if (fieldsMissing != "") {
 
                    errorMessage += "The following field(s) are missing:" + fieldsMissing;
@@ -65,9 +64,13 @@ function isEmail(email) {
           $("#largeModal").modal('show');
         });
 
-        $("#submit").click(function(){
-          $("#largeModal").modal('hide');
-          $("#myModal").modal('show');
+        $("#submit").click(function() {
+          if ($("#todo-list").val() == "") {
+            alert("Please enter your resolutions!");
+          } else {
+            $("#largeModal").modal('hide');
+            $("#myModal").modal('show');
+          }
         });
 
         $("#myModal a").click(function () {
