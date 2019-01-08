@@ -151,8 +151,26 @@ main{
   text-decoration: none;
 }
 
+#myModal {
+  max-width: 500px;
+}
+
 .modal-dialog {
   max-width: 800px;
+}
+
+.modal-content {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+#largeModal {
+  background-color: pink;
+  max-width: 800px;
+}
+
+.modal {
+  margin: 5px auto;
 }
 
 footer {
