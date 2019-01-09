@@ -25,6 +25,8 @@ $("#getStarted").click(function() {
 
   if (errorMessage != "") {
     $("#errorMessage").html(errorMessage);
+  } else if ($("#internalList").has("li").length === 0) {
+    alert("Please enter your resolutions!");
   } else {
     var userName = $("#email").val();
     $("#login").html("Hi, " + userName + "!");
