@@ -121,6 +121,7 @@ main{
 #submit{
     margin: 2% 25%;
     width: 50%;
+    border-radius: 5px;
 }
 #internalList{
     padding-left: 0;
