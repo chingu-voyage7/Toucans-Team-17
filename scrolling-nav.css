@@ -96,6 +96,15 @@ main{
     padding: 50px;
 }
 
+.close {
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-size: 21px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 4px;
+}
+
 #todo-input{
     margin-right: 5px;
     margin-left: 5px;
