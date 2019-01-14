@@ -1,8 +1,10 @@
+// Email validation method
 function isEmail(email) {
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return regex.test(email);
 }
 
+// SignUp/Login
 $("#getStarted").click(function() {
   var errorMessage = "";
   var fieldsMissing = "";
@@ -35,6 +37,7 @@ $("#getStarted").click(function() {
   }
 });
 
+// Todo-list
 function deleteLi(Li) {
   $(Li)
     .parent()
@@ -68,6 +71,7 @@ $("#submit").click(function() {
   }
 });
 
+// My modal
 $("#myModal a").click(function() {
   $("#myModal").modal("hide");
 });
