@@ -52,7 +52,6 @@ h1 {
 
 h2 {
     font-family: 'Unlock', cursive;
-    text-align: center;
 }
 
 p {
@@ -81,6 +80,14 @@ p {
 
 section {
   padding: 100px 0;
+}
+
+#about-us {
+    padding: 10px !important;
+}
+
+#signUp {
+    margin: 90px auto;
 }
 
 h4 {
@@ -181,7 +188,37 @@ main{
   margin: 5px auto;
 }
 
+/* About us */
+.about-us-div {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    align-items: stretch;
+    background-color: #bc1b3b;
+}
+
+.para {
+    align-self: center;
+    color: white;
+    margin: 10px;
+}
+
+.pics {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px;
+}
+
 footer {
     font-family: 'Nunito', sans-serif;
 
 }
+
+/* Media Queries */
+@media screen and (max-width: 382px) {
+    .para {
+        font-size: 11px;
+    }
+} 
