@@ -217,6 +217,12 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 430px) {
+    .para {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 382px) {
     .para {
         font-size: 11px;
