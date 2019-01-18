@@ -95,7 +95,8 @@ section {
 }
 
 h4 {
-  margin-top: -5px;
+  display: flex;
+  align-self: center;
 }
 
 /* Todo list */
@@ -113,6 +114,12 @@ main{
     display: flex;
     align-self: flex-end;
     margin-right: 4px;
+}
+
+#close {
+    display: flex;
+    align-self: center;
+
 }
 
 #todo-input{
@@ -133,7 +140,8 @@ main{
     width: 50%;
     border-radius: 5px;
 }
-#internalList{
+#internalList {
+    margin-top: 15px;
     padding-left: 0;
     overflow-y: scroll;
 }
@@ -206,6 +214,7 @@ main{
     align-self: center;
     color: white;
     margin: 10px;
+    font-size: 20px;
 }
 
 .pics {
@@ -221,6 +230,23 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 520px) {
+  .para {
+    font-size: 16px;
+  }
+  .upasana {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 430px) {
     .para {
         font-size: 12px;
@@ -246,15 +272,24 @@ footer {
       font-size: 17px;
     }
     #input, #email, #password {
-      font-size: 14px;
+      font-size: 13px;
     }
     .btn-primary, .btn-secondary {
-      font-size: 15px;
+      font-size: 14px;
     }
     .lead {
       font-size: 18px;
     }
     .m-0 {
       font-size: 12px;
+    }
+    #submit {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    h4 {
+      font-size: 13px;
     }
 }
