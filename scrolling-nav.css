@@ -90,6 +90,10 @@ section {
     margin: 90px auto;
 }
 
+#email, #password {
+  margin-top: 20px;
+}
+
 h4 {
   margin-top: -5px;
 }
@@ -221,10 +225,36 @@ footer {
     .para {
         font-size: 12px;
     }
+    .pics {
+      max-width: 160px;
+      max-height: 165px;
+    }
 }
 
 @media screen and (max-width: 382px) {
     .para {
         font-size: 11px;
     }
-} 
+    .pics {
+      max-width: 100px;
+      max-height: 110px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 17px;
+    }
+    #input, #email, #password {
+      font-size: 14px;
+    }
+    .btn-primary, .btn-secondary {
+      font-size: 15px;
+    }
+    .lead {
+      font-size: 18px;
+    }
+    .m-0 {
+      font-size: 12px;
+    }
+}
