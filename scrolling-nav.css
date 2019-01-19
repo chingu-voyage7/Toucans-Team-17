@@ -99,6 +99,18 @@ h4 {
   align-self: center;
 }
 
+h4 a {
+  color: black;
+}
+
+h4 a:hover {
+  color: hotpink;
+}
+
+#how-it-works img {
+  max-width: 100%;
+}
+
 /* Todo list */
 main{
     align-content: center;
@@ -119,7 +131,6 @@ main{
 #close {
     display: flex;
     align-self: center;
-
 }
 
 #todo-input{
@@ -127,53 +138,57 @@ main{
     margin-left: 5px;
     padding: 0 1%;
 }
+
 #todo-list{
     padding: 0 1%;
     margin: auto;
 }
+
 #entryinput{
     border-radius: 5px;
     width: 100%;
 }
+
 #submit{
-    margin: 2% 25%;
+    margin: 5% 25%;
     width: 50%;
     border-radius: 5px;
+    background-color: crimson;
+    border-color: #bc1b3b;
 }
+
+#submit:hover {
+  background-color: #f05272;
+}
+
 #internalList {
     margin-top: 15px;
     padding-left: 0;
     overflow-y: scroll;
 }
-.upasana{
+
+.listItem {
     list-style: none;
-    background-color: #ccc;
-    border-radius: 25px;
+    background-color: silver;
+    border-radius: 10px;
     padding: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left:0;
     margin-right: 5px;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.todo-btns{
+
+.delete-btn {
+    border-radius: 10px;
+    border: none;
     float:right;
     margin-top: -3px;
 }
 
-.delete-btn {
-    border-radius: 25px;
-    border: none;
-}
-
-@media screen and (max-width: 520px){
-    .todo-btns{
-        float:none;
-    }
-    .upasana{
-        text-align: center;
-    }
-
-}
 /* Modals */
 #myModal a {
   text-decoration: none;
@@ -222,6 +237,7 @@ main{
     max-width: 100%;
     max-height: 100%;
     margin: 10px;
+    display: block;
 }
 
 footer {
@@ -234,7 +250,7 @@ footer {
   .para {
     font-size: 16px;
   }
-  .upasana {
+  .listItem {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
