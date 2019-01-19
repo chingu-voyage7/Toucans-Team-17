@@ -49,11 +49,11 @@ $("#entryinput").keydown(function(e) {
   if (e.which === 13) {
     e.preventDefault();
     $("#internalList").append(
-      $('<li class="upasana">').text($("#entryinput").val())
+      $('<li class="listItem">').text($("#entryinput").val())
     );
     $(`<div class="todo-btns">
                <button class="delete-btn" onclick="deleteLi($(this))">Delete</button>
-            </div>`).appendTo(".upasana:last-child");
+            </div>`).appendTo(".listItem:last-child");
     $("#entryinput").val("");
   }
 });
