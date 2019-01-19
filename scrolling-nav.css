@@ -1,0 +1,315 @@
+nav {
+    font-family: 'Unlock', cursive;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: silver !important;
+}
+
+.nav-link:focus {
+    color: #f05272 !important;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/R0kHRvRj/blur-branch-celebration-281618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+#errorMessage {
+  color: red;
+  font-size: 90% !important;
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header-div {
+    margin-top: 90px;
+}
+
+h1 {
+    font-family: 'Unlock', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Unlock', cursive;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+    background-color: crimson !important;
+    border-color: #bc1b3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #f05272 !important;
+}
+
+.btn-secondary {
+    border-color: #bc1b3b !important;
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+.btn-secondary:hover {
+    background-color: #f05272 !important;
+}
+
+section {
+  padding: 100px 0;
+}
+
+#about-us {
+    padding: 10px !important;
+}
+
+#signUp {
+    margin: 90px auto;
+}
+
+#email, #password {
+  margin-top: 20px;
+}
+
+h4 {
+  display: flex;
+  align-self: center;
+}
+
+h4 a {
+  color: black;
+}
+
+h4 a:hover {
+  color: hotpink;
+}
+
+#how-it-works img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}
+
+/* Todo list */
+main{
+    align-content: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.close {
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-size: 21px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 4px;
+}
+
+#close {
+    display: flex;
+    align-self: center;
+}
+
+#todo-input{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0 1%;
+}
+
+#todo-list{
+    padding: 0 1%;
+    margin: auto;
+}
+
+#entryinput{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#submit{
+    margin: 5% 25%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: crimson;
+    border-color: #bc1b3b;
+}
+
+#submit:hover {
+  background-color: #f05272;
+}
+
+#internalList {
+    margin-top: 15px;
+    padding-left: 0;
+    overflow-y: scroll;
+}
+
+.listItem {
+    list-style: none;
+    background-color: silver;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:0;
+    margin-right: 5px;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    border-radius: 10px;
+    border: none;
+    float:right;
+    margin-top: -3px;
+}
+
+/* Modals */
+#myModal a {
+  text-decoration: none;
+}
+
+#myModal {
+  max-width: 500px;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+#largeModal {
+  max-width: 800px;
+}
+
+.modal {
+  margin: 5px auto;
+}
+
+/* About us */
+.about-us-div {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    align-items: stretch;
+    background-color: #bc1b3b;
+}
+
+.para {
+    align-self: center;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pics {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px;
+    display: block;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 520px) {
+  .para {
+    font-size: 16px;
+  }
+  .listItem {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+    .para {
+        font-size: 12px;
+    }
+    .pics {
+      max-width: 160px;
+      max-height: 165px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .para {
+        font-size: 11px;
+    }
+    .pics {
+      max-width: 100px;
+      max-height: 110px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 17px;
+    }
+    #input, #email, #password {
+      font-size: 13px;
+    }
+    .btn-primary, .btn-secondary {
+      font-size: 14px;
+    }
+    .lead {
+      font-size: 18px;
+    }
+    .m-0 {
+      font-size: 12px;
+    }
+    #submit {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    h4 {
+      font-size: 13px;
+    }
+}
+
+/* Don't let your new year resolutions remain incompleted anymore! All you need to do is just submit your email id along with your resolution(s), and you'll start receiving email reminders. It's that simple!!! */
