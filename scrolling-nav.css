@@ -82,6 +82,11 @@ section {
   padding: 100px 0;
 }
 
+#how-it-works {
+    padding: 10px !important;
+    margin: 90px auto;
+}
+
 #about-us {
     padding: 10px !important;
 }
