@@ -63,7 +63,7 @@ $("#add").click(function() {
 });
 
 $("#submit").click(function() {
-  if ($("#entryinput").val() == "" && $("#internalList").has("li").length === 0) {
+  if ($("#entryinput").val() == "" && $("#internalList").has(".listItem").length === 0) {
      alert("Please enter your resolutions!");
   } else {
     $("#largeModal").modal("hide");
