@@ -1,5 +1,5 @@
 .modal-open {
-  padding-right: 0 !important;
+    padding-right: 0 !important;
 }
 
 nav {
@@ -34,13 +34,6 @@ header {
   header {
     padding: 156px 0 100px;
   }
-}
-
-#errorMessage {
-  color: red;
-  font-size: 90% !important;
-  margin: 0 auto;
-  max-width: 100%;
 }
 
 form {
@@ -99,6 +92,17 @@ section {
 
 #signUp {
     margin: 90px auto;
+}
+
+#errorMessage {
+  color: red;
+  font-size: 90% !important;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#getStarted {
+  margin-top: 24px;
 }
 
 #email, #password {
