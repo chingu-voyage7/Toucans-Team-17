@@ -39,6 +39,8 @@ header {
 #errorMessage {
   color: red;
   font-size: 90% !important;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 form {
