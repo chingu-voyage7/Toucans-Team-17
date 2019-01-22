@@ -280,6 +280,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 437px) {
+  #header-div {
+    margin-top: 70px;
+  }
+}
+
 @media screen and (max-width: 430px) {
     .para {
         font-size: 12px;
