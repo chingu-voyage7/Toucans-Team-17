@@ -33,7 +33,7 @@ $("#submit").click(function() {
     $("#password").val("");
     $("#email").val("");
     $("#errorMessage").hide();
-    alert("Congratulations, you did it!");
+    alert("Success!");
   }
 });
 
