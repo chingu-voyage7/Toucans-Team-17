@@ -65,6 +65,9 @@ $("#getStarted").click(function() {
 $("#add").click(function() {
   if ($("#entryinput").val() == "" && $("#internalList").has(".listItem").length === 0) {
      alert("Please enter your resolutions!");
+  } else if ($("#login").html() != "Sign Up") {
+    alert("Your list is saved!");
+    $("#largeModal").modal("hide");
   } else {
     $("#largeModal").modal("hide");
     $("#myModal").modal("show");
