@@ -65,6 +65,7 @@ p {
 }
 
 .btn-primary {
+    margin-top: 40px;
     background-color: crimson !important;
     border-color: #bc1b3b !important;
 }
