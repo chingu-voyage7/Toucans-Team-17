@@ -5,7 +5,7 @@ function isEmail(email) {
 }
 
 // SignUp/Login
-$("#getStarted").click(function() {
+$("#submit").click(function() {
   var errorMessage = "";
   var fieldsMissing = "";
 
@@ -58,11 +58,11 @@ $("#entryinput").keydown(function(e) {
   }
 });
 
-$("#add").click(function() {
+$("#getStarted").click(function() {
   $("#largeModal").modal("show");
 });
 
-$("#submit").click(function() {
+$("#add").click(function() {
   if ($("#entryinput").val() == "" && $("#internalList").has(".listItem").length === 0) {
      alert("Please enter your resolutions!");
   } else {
