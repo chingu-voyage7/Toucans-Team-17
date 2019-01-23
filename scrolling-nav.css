@@ -105,7 +105,7 @@ section {
   margin-top: 20px;
 }
 
-#getStarted {
+#submit {
   margin-top: 24px;
 }
 
@@ -166,7 +166,7 @@ main{
     width: 100%;
 }
 
-#submit{
+#add{
     margin: 5% 25%;
     width: 50%;
     border-radius: 5px;
@@ -174,7 +174,7 @@ main{
     border-color: #bc1b3b;
 }
 
-#submit:hover {
+#add:hover {
   background-color: #f05272;
 }
 
@@ -322,7 +322,7 @@ footer {
     .m-0 {
       font-size: 12px;
     }
-    #submit {
+    #add {
       font-size: 14px;
     }
 }
