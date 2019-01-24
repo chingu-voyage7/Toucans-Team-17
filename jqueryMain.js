@@ -27,7 +27,7 @@ $("#submit").click(function() {
 
   if (errorMessage != "") {
     $("#errorMessage").html(errorMessage);
-  } else if ($("#entryinput").val() == "" || $("#internalList").has(".listItem").length === 0) {
+  } else if ($("#entryinput").val() != "" || $("#internalList").has(".listItem").length !== 0) {
     alert("Success! Your list is saved.");
     var userName = $("#email").val();
     $("#login").html("Hi, " + userName + "!");
