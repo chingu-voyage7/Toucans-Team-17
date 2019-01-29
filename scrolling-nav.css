@@ -1,3 +1,7 @@
+#logo {
+  color: orchid;
+}
+
 .modal-open {
   padding-right: 0 !important;
 }
@@ -15,7 +19,7 @@ nav {
 }
 
 .nav-link:focus {
-    color: #f05272 !important;
+    color: orchid !important;
 }
 
 header {
@@ -66,23 +70,23 @@ p {
 
 .btn-primary {
     margin-top: 40px;
-    background-color: crimson !important;
-    border-color: #bc1b3b !important;
+    background-color: mediumorchid !important;
+    border-color: mediumorchid !important;
 }
 
 .btn-primary:hover {
-    background-color: #f05272 !important;
+    background-color: orchid !important;
 }
 
 .btn-secondary {
-    border-color: #bc1b3b !important;
-    background-color: crimson;
+    border-color: mediumorchid !important;
+    background-color: mediumorchid;
     margin-top: 10px;
     padding: 5px 40px;
 }
 
 .btn-secondary:hover {
-    background-color: #f05272 !important;
+    background-color: orchid !important;
 }
 
 section {
@@ -120,7 +124,7 @@ h4 a {
 }
 
 h4 a:hover {
-  color: hotpink;
+  color: mediumorchid;
 }
 
 #how-it-works img {
@@ -171,12 +175,12 @@ main{
     margin: 5% 25%;
     width: 50%;
     border-radius: 5px;
-    background-color: crimson;
-    border-color: #bc1b3b;
+    background-color: mediumorchid;
+    border-color: mediumorchid;
 }
 
 #add:hover {
-  background-color: #f05272;
+  background-color: orchid;
 }
 
 #internalList {
@@ -240,7 +244,7 @@ main{
     max-width: 100%;
     overflow: hidden;
     align-items: stretch;
-    background-color: #bc1b3b;
+    background-color: mediumorchid;
 }
 
 .para {
