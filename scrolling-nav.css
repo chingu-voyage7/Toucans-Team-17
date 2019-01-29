@@ -1,4 +1,11 @@
-
+#logo {
+  border: 1px solid orchid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 
 .modal-open {
   padding-right: 0 !important;
@@ -334,4 +341,10 @@ footer {
     h4 {
       font-size: 13px;
     }
+}
+
+@media screen and (max-width: 327px) {
+  #logo {
+    margin-bottom: 2px;
+  }
 }
