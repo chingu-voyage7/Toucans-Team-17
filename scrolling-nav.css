@@ -227,6 +227,7 @@ main{
 }
 
 .modal-dialog {
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -236,8 +237,7 @@ main{
 }
 
 #largeModal {
-  max-width: 1140px;
-  margin: 0 auto;
+  max-width: 800px;
 }
 
 .modal {
