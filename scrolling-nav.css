@@ -252,6 +252,12 @@ main{
     overflow: hidden;
     align-items: stretch;
     background-color: mediumorchid;
+    -moz-display: flex;
+    -moz-justify-content: center;
+    -moz-max-width: 100%;
+    -moz-overflow: hidden;
+    -moz-align-items: stretch;
+    background-color: mediumorchid;
 }
 
 .para {
@@ -259,6 +265,10 @@ main{
     color: white;
     margin: 10px;
     font-size: 20px;
+    -moz-align-self: center;
+    -moz-color: white;
+    -moz-margin: 10px;
+    -moz-font-size: 20px;
 }
 
 .pics {
