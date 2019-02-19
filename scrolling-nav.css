@@ -265,6 +265,9 @@ main{
     border-radius: 50%;
     margin: 10px;
     display: block;
+    -moz-display: block;
+    -moz-margin: 10px;
+    -moz-border-radius: 50%;
 }
 
 footer {
