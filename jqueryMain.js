@@ -29,12 +29,14 @@ $("#submit").click(function() {
     $("#errorMessage").html(errorMessage);
   } else if ($("#entryinput").val() != "" || $("#internalList").has(".listItem").length !== 0) {
     alert("Success! Your list is saved.");
-    var userName = $("#email").val();
+    var email = $("#email").val();
+    var userName   = email.substring(0, email.lastIndexOf("@"));
     $("#login").html("Hi, " + userName + "!");
     $("#password").val("");
     $("#email").val("");
   } else {
-    var userName = $("#email").val();
+    var email = $("#email").val();
+    var userName   = email.substring(0, email.lastIndexOf("@"));
     $("#login").html("Hi, " + userName + "!");
     $("#password").val("");
     $("#email").val("");
@@ -64,6 +66,7 @@ $("#entryinput").keydown(function(e) {
   }
 });
 
+// Get Started Button
 $("#getStarted").click(function() {
   $("#largeModal").modal("show");
 });
