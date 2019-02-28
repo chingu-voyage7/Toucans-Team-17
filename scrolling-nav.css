@@ -252,11 +252,11 @@ main{
     overflow: hidden;
     align-items: stretch;
     background-color: mediumorchid;
-    -moz-display: flex;
-    -moz-justify-content: center;
-    -moz-max-width: 100%;
-    -moz-overflow: hidden;
-    -moz-align-items: stretch;
+    display: -moz-flex;
+    justify-content: -moz-center;
+    max-width: -moz-100%;
+    overflow: -moz-hidden;
+    align-items: -moz-stretch;
     background-color: mediumorchid;
 }
 
@@ -265,19 +265,19 @@ main{
     color: white;
     margin: 10px;
     font-size: 20px;
-    -moz-align-self: center;
-    -moz-color: white;
-    -moz-margin: 10px;
-    -moz-font-size: 20px;
+    align-self: -moz-center;
+    color: -moz-white;
+    margin: -moz-10px;
+    font-size:  -moz-20px;
 }
 
 .pics {
     border-radius: 50%;
     margin: 10px;
     display: block;
-    -moz-display: block;
-    -moz-margin: 10px;
-    -moz-border-radius: 50%;
+    display: -moz-block;
+    margin: -moz-10px;
+    border-radius: -moz-50%;
 }
 
 footer {
